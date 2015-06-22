@@ -1,3 +1,5 @@
+__author__ = 'yinjun'
+
 class Solution:
     """
     @param nums: A list of Integers.
@@ -34,5 +36,6 @@ class Solution:
             lst.pop()
             visited[i] = 0
 
+
 s = Solution()
-print s.permuteUnique([3,3,1,2,3,2,3,1])
+print s.permuteUnique([1,2,2,4])

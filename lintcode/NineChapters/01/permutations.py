@@ -1,9 +1,11 @@
+__author__ = 'yinjun'
+
 class Solution:
     """
     @param nums: A list of Integers.
     @return: A list of permutations.
     """
-    def permuteUnique(self, nums):
+    def permute(self, nums):
         # write your code here
 
         if nums == None:
@@ -12,27 +14,25 @@ class Solution:
         result = []
         lst = []
         length = len(nums)
-        visited = [0 for x in range(length)]
-        nums.sort()
-        self.permuteHelp(result, lst, visited, length, nums)
+
+        self.permuteHelp(result, lst, length, nums)
 
         return result
 
 
-    def permuteHelp(self, result, lst, visited, length, nums):
+    def permuteHelp(self, result, lst, length, nums):
 
         if len(lst) == length:
             result.append(lst[:])
             return
 
         for i in range(0, length):
-            if visited[i] == 1 or (i > 0 and nums[i] == nums[i-1] and visited[i-1] == 0):
+            if nums[i] in lst:
                 continue
-            visited[i] = 1
             lst.append(nums[i])
-            self.permuteHelp(result, lst, visited, length, nums)
+            self.permuteHelp(result, lst, length, nums)
             lst.pop()
-            visited[i] = 0
+
 
 s = Solution()
-print s.permuteUnique([3,3,1,2,3,2,3,1])
+print s.permute([1,2,3,4])

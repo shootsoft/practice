@@ -54,5 +54,5 @@ class Solution:
 
         return [pos1, pos2]
 
-s = Solution()
-print s.searchRange([5, 7, 7, 8, 8, 10], 8)
+s= Solution()
+print s.searchRange([9,10,100,101,1002,10203], 10203)

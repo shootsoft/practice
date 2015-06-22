@@ -18,7 +18,14 @@ class TestSolutionFuncs(unittest.TestCase):
 
     def test_rotate(self):
         expected = [5,6,7,1,2,3,4]
-        actual = self.s.rotate([1,2,3,4,5,6,7], 3)
+        actual = [1,2,3,4,5,6,7]
+        self.s.rotate(actual, 3)
+        self.assertEqual(actual, expected)
+
+
+        expected = [2,3,4,5,6,1]
+        actual =[1,2,3,4,5,6]
+        self.s.rotate(actual, 11)
         self.assertEqual(actual, expected)
 
 

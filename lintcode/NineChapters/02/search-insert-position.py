@@ -1,3 +1,5 @@
+__author__ = 'yinjun'
+
 class Solution:
     """
     @param A : a list of integers
@@ -40,6 +42,5 @@ class Solution:
             return end
 
 
-
 s = Solution()
-print s.searchInsert([1], 2)
+print s.searchInsert([1,3,5,6,8,9], 7)
