@@ -1,9 +1,11 @@
 __author__ = 'yinjun'
 
+
+
 class Solution:
     #@param A: An integers list.
     #@return: return any of peek positions.
-    def findPeak(self, A):
+    def findPeakElement(self, A):
         # write your code here
 
         start = 0
@@ -31,7 +33,3 @@ class Solution:
             return start
         else:
             return end
-
-
-s = Solution()
-print s.findPeak([1, 2, 1, 3, 4, 5, 7, 6])

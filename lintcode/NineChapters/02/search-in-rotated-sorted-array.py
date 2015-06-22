@@ -22,16 +22,16 @@ class Solution:
 
             if A[mid] == target:
                 return mid
-            elif A[start] > A[end]:
-                if A[mid] < A[start]  and target > A[mid]  or A[mid]> A[start] and (target< A[start] or target>A[mid]):
+            elif A[start] < A[mid]:
+                if A[start] <= target and target<=A[mid]:
+                    end = mid
+                else:
+                    start = mid
+            else:
+                if A[mid] <= target and target<= A[end]:
                     start = mid
                 else:
-                    #print 'else'
                     end = mid
-            elif A[start] < A[end] and A[mid] < target:
-                end = mid
-            else:
-                start = mid
 
         if A[start] == target:
             return start
