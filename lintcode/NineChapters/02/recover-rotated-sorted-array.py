@@ -24,8 +24,9 @@ class Solution:
         minPos = 0
         if length > 1:
             for i in range(1, length):
-                if nums[i] < nums[minPos]:
+                if nums[i] < nums[i-1]:
                     minPos = i
+                    break
         return minPos
         # start = 0
         # end = len(nums) - 1

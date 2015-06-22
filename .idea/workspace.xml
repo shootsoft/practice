@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2f312b7-c9ea-4418-8c31-9b8b74d543d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/02/binary-search.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/02/find-peak-element.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/02/first-bad-version.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/02/merge-sorted-array.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/01/permutations.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/01/permutationsii.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/02/recover-rotated-sorted-array.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/02/search-for-a-range.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/02/search-in-rotated-sorted-array.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/02/search-insert-position.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/061-090/merge-sorted-array/solution.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/python/031-060/035-search-insert-position/insert.py" afterPath="$PROJECT_DIR$/LeetCode/python/031-060/035-search-insert-position/insert.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/python/031-060/046-permutations-ii/permutationii.py" afterPath="$PROJECT_DIR$/LeetCode/python/031-060/046-permutations-ii/permutationii.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/python/031-060/032-search-for-a-range/range.py" afterPath="$PROJECT_DIR$/LeetCode/python/031-060/032-search-for-a-range/range.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/python/181-210/189-rotate-array/solution.py" afterPath="$PROJECT_DIR$/LeetCode/python/181-210/189-rotate-array/solution.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/python/181-210/189-rotate-array/test.py" afterPath="$PROJECT_DIR$/LeetCode/python/181-210/189-rotate-array/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/NineChapters/02/recover-rotated-sorted-array.py" afterPath="$PROJECT_DIR$/lintcode/NineChapters/02/recover-rotated-sorted-array.py" />
     </list>
     <ignored path="practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,8 +41,8 @@
       <file leaf-file-name="recover-rotated-sorted-array.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/02/recover-rotated-sorted-array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.03448276" vertical-offset="719" max-vertical-offset="1125">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.18719211" vertical-offset="464" max-vertical-offset="1140">
+              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -92,7 +76,6 @@
         <option value="$PROJECT_DIR$/lintcode/NineChapters/02/binary-search.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/02/search-insert-position.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/031-060/035-search-insert-position/insert.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/02/recover-rotated-sorted-array.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/181-210/189-rotate-array/test.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/181-210/189-rotate-array/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/02/first-bad-version.py" />
@@ -100,6 +83,7 @@
         <option value="$PROJECT_DIR$/lintcode/NineChapters/02/search-for-a-range.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/031-060/032-search-for-a-range/range.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/02/search-in-rotated-sorted-array.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/02/recover-rotated-sorted-array.py" />
       </list>
     </option>
   </component>
@@ -771,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/02/recover-rotated-sorted-array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.03448276" vertical-offset="719" max-vertical-offset="1125">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18719211" vertical-offset="464" max-vertical-offset="1140">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding />
         </state>
       </provider>
