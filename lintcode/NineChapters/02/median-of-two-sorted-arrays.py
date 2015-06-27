@@ -48,10 +48,4 @@ class Solution:
 
 
 s = Solution()
-
 print s.findMedianSortedArrays([1,2,3,4,5,6], [2,3,4,5])
-print s.findMedianSortedArrays([], [1])
-print s.findMedianSortedArrays([1,1], [1,2])
-print s.findMedianSortedArrays([1,5,6,7,10], [2,3,4,8,9])
-print s.findMedianSortedArrays([2], [])
-print s.findMedianSortedArrays([], [1,2,3,4])

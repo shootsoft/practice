@@ -31,4 +31,3 @@ class Solution:
             node.right = right
             node = node.right
             self.flattenHelp(node)
-        
