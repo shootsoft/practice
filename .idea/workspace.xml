@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2f312b7-c9ea-4418-8c31-9b8b74d543d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-search-tree-iterator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-inorder-travesal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-level-order-traversal-ii.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-level-order-traversal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-postorder-travesal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-preorder-traversal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-serialization.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-zigzag-level-order-traversal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/insert-node-in-a-binary-search-tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/lowest-common-ancestor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/maximum-depth-of-binary-tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/02/median-of-two-sorted-arrays.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/minimum-depth-of-binary-tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/search-range-in-binary-search-tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/091-120/098-validate-binary-search-tree/solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/091-120/103-binary-tree-zigzag-level-order-traversal/solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/121-150/144-binary-tree-preorder-traversal/solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/121-150/145-binary-tree-postorder-traversal/solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/151-180/173-binary-search-tree-iterator/solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/validate-binary-search-tree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/python/001-030/002-median-of-two-sorted-arrays/median.py" afterPath="$PROJECT_DIR$/LeetCode/python/001-030/002-median-of-two-sorted-arrays/median.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/python/091-120/114-flatten-binary-tree-to-linked-list/solution.py" afterPath="$PROJECT_DIR$/LeetCode/python/091-120/114-flatten-binary-tree-to-linked-list/solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/091-120/105-construct-binary-tree-from-preorder-and-inorder-traversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/balanced-binary-tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-maximum-path-sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-preorder-and-inorder-traversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/091-120/solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/121-150/124-binary-tree-maximum-path-sum/solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/NineChapters/03/lowest-common-ancestor.py" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/lowest-common-ancestor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/python/091-120/110-balanced-binary-tree/solution.py" afterPath="$PROJECT_DIR$/LeetCode/python/091-120/110-balanced-binary-tree/solution.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practice.iws" />
@@ -56,31 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="binary-tree-serialization.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-serialization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1240" max-vertical-offset="2100">
-              <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remove-node-in-binary-search-tree.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="remove-node-in-binary-search-tree.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listnode.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/python/common/listnode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.41732284" vertical-offset="265" max-vertical-offset="900">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="625">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -99,13 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/02/merge-sorted-array-ii.py" />
-        <option value="$PROJECT_DIR$/LeetCode/python/151-180/162-find-peak-element/solution.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/02/remove-duplicates-from-sorted-array.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/02/remove-duplicates-from-sorted-array-ii.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/02/find-minimum-in-rotated-sorted-array.py" />
-        <option value="$PROJECT_DIR$/LeetCode/python/151-180/153-find-minimum-in-rotated-sorted-array/solution.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/02/find-minimum-in-rotated-sorted-array-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/151-180/154-find-minimum-in-rotated-sorted-array-ii/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/02/search-in-rotated-sorted-array-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/181-210/206-reverse-linked-list/solution.py" />
@@ -142,13 +101,20 @@
         <option value="$PROJECT_DIR$/LeetCode/python/091-120/098-validate-binary-search-tree/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/search-range-in-binary-search-tree.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-level-order-traversal.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/lowest-common-ancestor.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-level-order-traversal-ii.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-zigzag-level-order-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/091-120/103-binary-tree-zigzag-level-order-traversal/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-search-tree-iterator.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/151-180/173-binary-search-tree-iterator/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-serialization.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/balanced-binary-tree.py" />
+        <option value="$PROJECT_DIR$/LeetCode/python/091-120/110-balanced-binary-tree/solution.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-preorder-and-inorder-traversal.py" />
+        <option value="$PROJECT_DIR$/LeetCode/python/091-120/105-construct-binary-tree-from-preorder-and-inorder-traversal.py" />
+        <option value="$PROJECT_DIR$/LeetCode/python/091-120/solution.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/lowest-common-ancestor.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-maximum-path-sum.py" />
+        <option value="$PROJECT_DIR$/LeetCode/python/121-150/124-binary-tree-maximum-path-sum/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py" />
       </list>
     </option>
@@ -156,7 +122,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1273" />
-    <option name="height" value="732" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -254,90 +220,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="211-240" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="151-180" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -668,8 +550,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1273" height="732" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1273" height="722" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -729,59 +611,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/02/remove-duplicates-from-sorted-array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.591133" vertical-offset="0" max-vertical-offset="600">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/151-180/154-find-minimum-in-rotated-sorted-array-ii/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7389163" vertical-offset="0" max-vertical-offset="406">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/02/find-minimum-in-rotated-sorted-array-ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7758621" vertical-offset="0" max-vertical-offset="435">
-          <caret line="21" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/02/find-minimum-in-rotated-sorted-array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4827586" vertical-offset="299" max-vertical-offset="705">
-          <caret line="33" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/181-210/206-reverse-linked-list/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77832514" vertical-offset="134" max-vertical-offset="540">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/02/search-in-rotated-sorted-array-ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5147784" vertical-offset="0" max-vertical-offset="705">
-          <caret line="41" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/02/recover-rotated-sorted-array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1140">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/python/151-180/151-reverse-words-in-a-string/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="600">
@@ -989,6 +822,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="555">
           <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -996,14 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="765">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/lowest-common-ancestor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7401575" vertical-offset="550" max-vertical-offset="1185">
-          <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,18 +913,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/common/listnode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/common/listnode.py">
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/balanced-binary-tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.41732284" vertical-offset="265" max-vertical-offset="900">
+        <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="720">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/091-120/110-balanced-binary-tree/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91653544" vertical-offset="48" max-vertical-offset="720">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/091-120/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5984252" vertical-offset="205" max-vertical-offset="840">
+          <caret line="39" column="92" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/091-120/105-construct-binary-tree-from-preorder-and-inorder-traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-preorder-and-inorder-traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41666666" vertical-offset="0" max-vertical-offset="675">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/121-150/124-binary-tree-maximum-path-sum/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.672" vertical-offset="0" max-vertical-offset="625">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-maximum-path-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84" vertical-offset="0" max-vertical-offset="750">
+          <caret line="35" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/lowest-common-ancestor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36" vertical-offset="45" max-vertical-offset="1260">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="66" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="625">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding />
         </state>
       </provider>

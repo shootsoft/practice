@@ -16,3 +16,6 @@ class Solution:
     def removeNode(self, root, value):
         # write your code here
 
+
+    def removeNodeHelp(self, parent, current, value):
+        

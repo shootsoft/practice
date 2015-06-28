@@ -35,9 +35,10 @@ class Solution:
         ma = len(pathA)
         mb = len(pathB)
 
-        print pathA
-        print pathB
-
+        # print pathA
+        # print pathB
+        # return
+        #
         while  i< ma and j<mb and pathA[i] == pathB[j]:
             result = pathA[i]
             i +=1
@@ -49,16 +50,20 @@ class Solution:
 
         path = []
 
-        while root.val != node.val:
-            path.append(root.val)
-            if node.val < root.val:
-                root = root.left
-            else:
-                root = root.right
+        if root == None:
+            return path
+        elif root == node:
+            path.append(root)
+        else:
+            left = self.getPath(root.left, node)
+            right = self.getPath(root.right, node)
 
-        if path == [] and root!=None and root.val == node.val:
-            path.append(root.val)
-
+            if left!=[]:
+                path.append(root)
+                path.extend(left)
+            if right!=[]:
+                path.append(root)
+                path.extend(right)
         return path
 
 s = Solution()
@@ -70,4 +75,4 @@ n2 = TreeNode(-1)
 n3 = TreeNode(3)
 n1.left = n2
 n1.right = n3
-print s.lowestCommonAncestor(n1, n2, n3).val
+print s.lowestCommonAncestor(n1, n2, n3)
