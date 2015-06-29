@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2f312b7-c9ea-4418-8c31-9b8b74d543d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/091-120/105-construct-binary-tree-from-preorder-and-inorder-traversal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/balanced-binary-tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-maximum-path-sum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-preorder-and-inorder-traversal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/091-120/solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/121-150/124-binary-tree-maximum-path-sum/solution.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/NineChapters/03/lowest-common-ancestor.py" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/lowest-common-ancestor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-inorder-and-postorder-traversal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-serialization.py" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-serialization.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-preorder-and-inorder-traversal.py" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-preorder-and-inorder-traversal.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py" afterPath="$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/python/091-120/110-balanced-binary-tree/solution.py" afterPath="$PROJECT_DIR$/LeetCode/python/091-120/110-balanced-binary-tree/solution.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practice.iws" />
@@ -42,11 +37,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="search-range-in-binary-search-tree.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/search-range-in-binary-search-tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="remove-node-in-binary-search-tree.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="625">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.952" vertical-offset="770" max-vertical-offset="1455">
+              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/python/151-180/154-find-minimum-in-rotated-sorted-array-ii/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/02/search-in-rotated-sorted-array-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/181-210/206-reverse-linked-list/solution.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/151-180/151-reverse-words-in-a-string/test.py" />
@@ -106,15 +110,16 @@
         <option value="$PROJECT_DIR$/LeetCode/python/091-120/103-binary-tree-zigzag-level-order-traversal/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-search-tree-iterator.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/151-180/173-binary-search-tree-iterator/solution.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-serialization.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/balanced-binary-tree.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/091-120/110-balanced-binary-tree/solution.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-preorder-and-inorder-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/091-120/105-construct-binary-tree-from-preorder-and-inorder-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/091-120/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/lowest-common-ancestor.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-maximum-path-sum.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/121-150/124-binary-tree-maximum-path-sum/solution.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-preorder-and-inorder-traversal.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-inorder-and-postorder-traversal.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-serialization.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py" />
       </list>
     </option>
@@ -558,7 +563,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -615,13 +620,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/151-180/151-reverse-words-in-a-string/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="600">
-          <caret line="25" column="42" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/python/151-180/151-reverse-words-in-a-string/solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25862068" vertical-offset="150" max-vertical-offset="1005">
@@ -797,13 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-preorder-traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="337" max-vertical-offset="780">
-          <caret line="33" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/python/091-120/111-minimum-depth-of-binary-tree/solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
@@ -815,14 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77832514" vertical-offset="419" max-vertical-offset="825">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/search-range-in-binary-search-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="555">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,14 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-inorder-travesal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1200">
-          <caret line="65" column="21" selection-start-line="23" selection-start-column="0" selection-end-line="65" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/python/151-180/173-binary-search-tree-iterator/solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1140">
@@ -901,14 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-serialization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1240" max-vertical-offset="2100">
-          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -953,14 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-preorder-and-inorder-traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41666666" vertical-offset="0" max-vertical-offset="675">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/python/121-150/124-binary-tree-maximum-path-sum/solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.672" vertical-offset="0" max-vertical-offset="625">
@@ -985,10 +944,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-inorder-travesal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64" vertical-offset="575" max-vertical-offset="1200">
+          <caret line="65" column="21" selection-start-line="21" selection-start-column="2" selection-end-line="65" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-preorder-traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04" vertical-offset="155" max-vertical-offset="780">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-preorder-and-inorder-traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30232558" vertical-offset="118" max-vertical-offset="720">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="42" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/construct-binary-tree-from-inorder-and-postorder-traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-serialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.216" vertical-offset="0" max-vertical-offset="2520">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="141" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/search-range-in-binary-search-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="555">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/remove-node-in-binary-search-tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="625">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.952" vertical-offset="770" max-vertical-offset="1455">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
       </provider>

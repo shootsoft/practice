@@ -19,51 +19,86 @@ class Solution:
         # write your code here
 
         result = []
-        queue =[]
-        if root == None:
-            return result
-
-        queue.append(root)
-        l = 1
-
-        while l > 0:
-
-            hasNext = False
-
-            for i in range(l):
-                #print i
-                if  queue[i]!='#' and (queue[i].left !=None or queue[i].right !=None):
-                    hasNext = True
-                    break
-            #print hasNext
-            for i in range(l):
-
-                p = queue.pop(0)
-                l -= 1
-                if p == '#':
-                    result.append('#')
-                    if hasNext:
-                        queue.append('#')
-                        queue.append('#')
-                else:
-                    result.append(p.val)
-
-                    if p.left != None:
-                        queue.append(p.left)
-                    elif hasNext:
-                         queue.append('#')
-
-                    if p.right !=None:
-                        queue.append(p.right)
-                    elif hasNext:
-                        queue.append('#')
-
-                l = len(queue)
+        result.append(self.preorderTraversal(root))
+        result.append(self.inorderTraversal(root))
         return result
 
 
+    def inorderTraversal(self, root):
+        # write your code here
+
+        stack = []
+        dict = {}
+        dictStack = {}
+        result = []
+
+        if root == None:
+            return result
+
+        if root.right!=None:
+            stack.append(root.right)
+            dictStack[root.right] = 1
+        stack.append(root)
+        dictStack[root] = 1
+        if root.left!=None:
+            stack.append(root.left)
+            dictStack[root.left] = 1
+        l = len(stack)
+
+        while l>0:
+            #print result
+            p = stack.pop()
+            dictStack.pop(p)
+            l -= 1
+            if p.left ==None or p.left !=None and p.left in dict:
+                dict[p] = 1
+                result.append(p.val)
+                if p.right!=None and p.right not in dictStack:
+                   stack.append(p.right)
+                   dictStack[p.right] = 1
+                   l += 1
+            else:
+                if p.right!=None:
+                    stack.append(p.right)
+                    dictStack[p.right] = 1
+                stack.append(p)
+                dictStack[p] = 1
+                if p.left!=None:
+                    stack.append(p.left)
+                    dictStack[p.left] = 1
+                l = len(stack)
+
+        return result
+
+    def preorderTraversal(self, root):
+        # write your code here
+
+        stack = []
+        result = []
+        if root == None:
+            return result
+
+        stack.append(root)
+        l = 1
+
+        while l>0:
+
+            p = stack.pop()
+            l -= 1
+
+            result.append(p.val)
+
+            if p.right != None:
+                stack.append(p.right)
+                l += 1
+
+            if p.left != None:
+                stack.append(p.left)
+                l += 1
 
 
+
+        return result
 
     '''
     @param data: A string serialized by your serialize method.
@@ -76,45 +111,33 @@ class Solution:
     def deserialize(self, data):
         # write your code here
 
-        if data == None or data==[]:
+        if data==None or data == [] or len(data)!=2:
             return None
 
-        length = len(data)
-        pos = 1
-        level = 2
-        root = TreeNode(data[0])
-        queue = [root]
+        return self.buildTree(data[0], data[1])
 
-        while pos < length:
-            #print pos,  2**(level-1) + 1
-            for i in range(pos, 2**(level-1) + 1, 2):
-                if i> length:
-                    break
-                pos += 2
-                #print 'i =', i
-                p = queue.pop(0)
-                if p != None:
-                    #print 'p.val =',p.val
-                    #print i
-                    if data[i] == '#':
-                        queue.append(None)
-                    else:
-                        p.left = TreeNode(data[i])
-                        queue.append(p.left)
-                        #print 'left =', data[i]
 
-                    if data[i+1] == '#':
-                        queue.append(None)
-                    else:
-                        p.right = TreeNode(data[i + 1])
-                        queue.append(p.right)
-                        #print 'right =', data[i + 1]
-                else:
-                    queue.append(None)
-                    queue.append(None)
-            #pos += 2**(level-1) + 1
-            level += 1
-            #print 'pos =', pos
+    def buildTree(self, preorder, inorder):
+        # write your code here
+        if preorder ==[] and inorder == []:
+            return None
+
+        root = TreeNode(preorder[0])
+
+        inpos = inorder.index(preorder[0])
+
+        if inpos>0:
+            left_pre = preorder[1:inpos+1]
+            left_in = inorder[0:inpos]
+            root.left = self.buildTree(left_pre, left_in)
+
+        length = len(inorder)
+
+        if  inpos + 1 < length:
+
+            right_pre = preorder[inpos+1:]
+            right_in = inorder[inpos+1:]
+            root.right = self.buildTree(right_pre, right_in)
 
         return root
 
@@ -128,8 +151,13 @@ class TreeNode:
 s = Solution()
 n1 = TreeNode(1)
 n2 = TreeNode(2)
-n1.right = n2
+n3 = TreeNode(3)
+n4 = TreeNode(4)
+n1.left = n2
+n2.left = n3
+n3.left = n4
+print s.serialize(n1)
 #print s.serialize(n1)
 #print s.serialize(s.deserialize([1, '#', 2]))
 #print s.serialize(s.deserialize([1,2,3,'#','#',4,5]))
-print s.serialize(s.deserialize([1, 2, '#', 3, '#',4]))
+#print s.serialize(s.deserialize([1, 2, '#', 3, '#',4]))

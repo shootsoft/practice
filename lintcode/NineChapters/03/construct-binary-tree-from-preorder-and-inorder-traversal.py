@@ -8,6 +8,9 @@ class TreeNode:
         this.left, this.right = None, None
 """
 
+# example
+# int pre[] = {7, 10, 4, 3, 1, 2, 8, 11};
+# int in[] = {4, 10, 3, 1, 7, 11, 8, 2};
 
 class Solution:
     """
