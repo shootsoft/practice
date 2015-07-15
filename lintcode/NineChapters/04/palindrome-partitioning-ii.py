@@ -6,7 +6,7 @@ class Solution:
     def minCut(self, s):
         # write your code here
 
-        
+
 
 
 
