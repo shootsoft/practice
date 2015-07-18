@@ -3,65 +3,42 @@ import datetime
 class Solution:
     # @return a boolean
     def isMatch(self, s, p):
-        if p == s or s == '' and ( p[0] =='*' or p.endswith('*') ):
+
+        if s == p:
             return True
-        elif(p == ''):
+        elif p == None or p=="":
             return False
 
-        return  self.isMatchDirection(s, p)
+        ls = len(s)
+        lp = len(p)
+        i = j = 0
+        last_s = 0
+        last_p = -1
 
-    def isMatchDirection(self, s, p):
-        leftpop = True
-        rightpop = True
-        left = None
-        right = None
-
-        lenl = len(s)
-        lenr = len(p)
-
-        posl = 0
-        posr = 0
-
-        lastMatch = False
-
-        while posl <lenl and posr  < lenr:
-
-            if leftpop == True:
-                left = s[posl]
-                posl += 1
-
-
-            if rightpop == True:
-                right = p[posr]
-                posr +=1
-
-
-            if(right == '?' or (left == right and right != '*')):
-                leftpop = True
-                rightpop = True
-                lastMatch = True
-
-            elif(right == '*'):
-                leftpop = True
-                rightpop = False
-                lastMatch = True
-                #print ls, lp
+        while i < ls:
+            if j<lp and (p[i]=="?" or s[i] == p[j]):
+                i += 1
+                j += 1
+            elif j<lp and p[j] == "*":
+                last_s = i
+                last_p = j
+                j += 1
+            elif last_p>=0:
+                last_s += 1
+                i = last_s
+                j = last_p
             else:
-                leftpop = True
-                rightpop = False
-                lastMatch = False
-            #print d, ls, lp, right
-
-        #print lastMatch, posl, posr
+                return False
 
 
-        if (posl == lenl and posr == lenr) \
-                or (lenl - posl ==1 and right =='*') \
-                or (lastMatch and lenl - posl ==0 and lenr - posr ==1 and p[posr] =='*'):
-            return True
-        else:
-
+        if i < ls:
             return False
+
+        while j< lp and p[j] == "*":
+            j += 1
+
+        return j == lp
+
 
 
 s = Solution()

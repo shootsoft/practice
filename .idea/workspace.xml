@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2f312b7-c9ea-4418-8c31-9b8b74d543d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/211-240/202-happy-number/solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/121-150/139-word-break/soluton.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/04/wordbreak.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/05/edit-distance.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/05/ksum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/061-090/072-edit-distance/solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/121-150/131-palindrome-partitioning/solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/121-150/132-palindrome-partitioning-ii/solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/211-240/225-implement-stack-using-queues/solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/211-240/232-implement-queue-using-stacks/solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/121-150/131-palindrome-partitioning/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/05/wildcard-matching.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/NineChapters/04/palindrome-partitioning-ii.py" afterPath="$PROJECT_DIR$/lintcode/NineChapters/04/palindrome-partitioning-ii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/python/031-060/043-wildcard-matching/whildcard.py" afterPath="$PROJECT_DIR$/LeetCode/python/031-060/043-wildcard-matching/whildcard.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practice.iws" />
@@ -18,11 +25,13 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/practice$ksum.coverage" NAME="ksum Coverage Results" MODIFIED="1437201098422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lintcode/NineChapters/05" />
     <SUITE FILE_PATH="PyCharm30/coverage/practice$Unittest_TestSolutionFuncs_test_containsNearbyDuplicate.coverage" NAME="Unittest TestSolutionFuncs.test_containsNearbyDuplicate Coverage Results" MODIFIED="1435056888731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/python/211-240/219-contains-duplicate-ii" />
     <SUITE FILE_PATH="PyCharm30/coverage/practice$Unittest_TestSolutionFuncs_test_getRow.coverage" NAME="Unittest TestSolutionFuncs.test_getRow Coverage Results" MODIFIED="1435059827510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/python/091-120/119-pascals-triangle-ii" />
     <SUITE FILE_PATH="PyCharm30/coverage/practice$Unittests_in_TestSolutionFuncs.coverage" NAME="Unittests in TestSolutionFuncs Coverage Results" MODIFIED="1435056764524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/python/151-180/151-reverse-words-in-a-string" />
     <SUITE FILE_PATH="PyCharm30/coverage/practice$Unittests_in_TestSolutionFuncs__1_.coverage" NAME="Unittests in TestSolutionFuncs (1) Coverage Results" MODIFIED="1435059486958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/python/091-120/118-pascals-triangle" />
     <SUITE FILE_PATH="PyCharm30/coverage/practice$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1435020077180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/python/181-210/189-rotate-array" />
+    <SUITE FILE_PATH="coverage/practice$Unittest_TestSolutionFuncs_test_partition.coverage" NAME="Unittest TestSolutionFuncs.test_partition Coverage Results" MODIFIED="1436951500909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/python/121-150/131-palindrome-partitioning" />
     <SUITE FILE_PATH="PyCharm30/coverage/practice$Unittest_TestSolutionFuncs_test_generate.coverage" NAME="Unittest TestSolutionFuncs.test_generate Coverage Results" MODIFIED="1435059769216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/python/091-120/119-pascals-triangle-ii" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -37,11 +46,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="soluton.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/python/121-150/139-word-break/soluton.py">
+      <file leaf-file-name="wildcard-matching.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/wildcard-matching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7258065" vertical-offset="0" max-vertical-offset="620">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+              <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="whildcard.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/python/031-060/043-wildcard-matching/whildcard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="39" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ksum.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/ksum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1102" max-vertical-offset="1560">
+              <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit-distance.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/edit-distance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/python/061-090/072-edit-distance/solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6731235" vertical-offset="22" max-vertical-offset="495">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -60,16 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/python/091-120/119-pascals-triangle-ii/test.py" />
-        <option value="$PROJECT_DIR$/LeetCode/python/091-120/107-binary-tree-level-order-traversal-ii/solution.py" />
-        <option value="$PROJECT_DIR$/LeetCode/python/121-150/141-linked-list-cycle/solution.py" />
-        <option value="$PROJECT_DIR$/LeetCode/python/121-150/142-linked-list-cycle-ii/solution.py" />
-        <option value="$PROJECT_DIR$/LeetCode/python/091-120/114-flatten-binary-tree-to-linked-list/solution.py" />
-        <option value="$PROJECT_DIR$/LeetCode/python/001-030/002-median-of-two-sorted-arrays/median.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/02/median-of-two-sorted-arrays.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/maximum-depth-of-binary-tree.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/minimum-depth-of-binary-tree.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/insert-node-in-a-binary-search-tree.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-preorder-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/121-150/144-binary-tree-preorder-traversal/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-postorder-travesal.py" />
@@ -107,10 +146,20 @@
         <option value="$PROJECT_DIR$/lintcode/NineChapters/04/jump-game.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/04/jump-game-ii.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/04/longest-increasing-subsequence.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/04/palindrome-partitioning-ii.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/211-240/202-happy-number/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/04/wordbreak.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/121-150/139-word-break/soluton.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/04/palindrome-partitioning-ii.py" />
+        <option value="$PROJECT_DIR$/LeetCode/python/121-150/132-palindrome-partitioning-ii/solution.py" />
+        <option value="$PROJECT_DIR$/LeetCode/python/121-150/131-palindrome-partitioning/test.py" />
+        <option value="$PROJECT_DIR$/LeetCode/python/121-150/131-palindrome-partitioning/solution.py" />
+        <option value="$PROJECT_DIR$/LeetCode/python/211-240/225-implement-stack-using-queues/solution.py" />
+        <option value="$PROJECT_DIR$/LeetCode/python/211-240/232-implement-queue-using-stacks/solution.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/05/wildcard-matching.py" />
+        <option value="$PROJECT_DIR$/LeetCode/python/031-060/043-wildcard-matching/whildcard.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/05/ksum.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/05/edit-distance.py" />
+        <option value="$PROJECT_DIR$/LeetCode/python/061-090/072-edit-distance/solution.py" />
       </list>
     </option>
   </component>
@@ -174,46 +223,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lintcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NineChapters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lintcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NineChapters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -254,7 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="121-150" />
+              <option name="myItemId" value="061-090" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,11 +285,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="121-150" />
+              <option name="myItemId" value="061-090" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="139-word-break" />
+              <option name="myItemId" value="072-edit-distance" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,57 +315,7 @@
       <recent name="$PROJECT_DIR$/lintcode/NineChapters/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest TestSolutionFuncs.test_getRow">
-    <configuration default="false" name="Unittests in TestSolutionFuncs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/python/151-180/151-reverse-words-in-a-string" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="practice" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/python/151-180/151-reverse-words-in-a-string/test.py" />
-      <option name="CLASS_NAME" value="TestSolutionFuncs" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestSolutionFuncs.test_containsNearbyDuplicate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/python/211-240/219-contains-duplicate-ii" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="practice" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/python/211-240/219-contains-duplicate-ii/test.py" />
-      <option name="CLASS_NAME" value="TestSolutionFuncs" />
-      <option name="METHOD_NAME" value="test_containsNearbyDuplicate" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ksum">
     <configuration default="false" name="Unittests in TestSolutionFuncs (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -428,6 +387,50 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestSolutionFuncs.test_partition" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/python/121-150/131-palindrome-partitioning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practice" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/python/121-150/131-palindrome-partitioning/test.py" />
+      <option name="CLASS_NAME" value="TestSolutionFuncs" />
+      <option name="METHOD_NAME" value="test_partition" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ksum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lintcode/NineChapters/05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practice" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lintcode/NineChapters/05/ksum.py" />
+      <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -583,19 +586,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestSolutionFuncs" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_containsNearbyDuplicate" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in TestSolutionFuncs (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_generate" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_getRow" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestSolutionFuncs (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_generate" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_getRow" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_partition" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ksum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_getRow" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_generate" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in TestSolutionFuncs (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_containsNearbyDuplicate" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestSolutionFuncs" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ksum" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_partition" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_getRow" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestSolutionFuncs.test_generate" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestSolutionFuncs (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -624,7 +627,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3198198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31944445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -673,87 +676,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/121-150/142-linked-list-cycle-ii/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33251232" vertical-offset="0" max-vertical-offset="435">
-          <caret line="9" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/121-150/141-linked-list-cycle/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.408867" vertical-offset="209" max-vertical-offset="675">
-          <caret line="25" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/02/median-of-two-sorted-arrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="434" max-vertical-offset="840">
-          <caret line="17" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/001-030/002-median-of-two-sorted-arrays/median.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
-          <caret line="47" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/maximum-depth-of-binary-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="21" column="35" selection-start-line="14" selection-start-column="0" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/minimum-depth-of-binary-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="16" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/insert-node-in-a-binary-search-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/121-150/144-binary-tree-preorder-traversal/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="383">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/121-150/145-binary-tree-postorder-traversal/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7364532" vertical-offset="0" max-vertical-offset="930">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/091-120/094-binary-tree-inorder-traversal/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="450">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/091-120/111-minimum-depth-of-binary-tree/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/python/091-120/098-validate-binary-search-tree/solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77832514" vertical-offset="419" max-vertical-offset="825">
@@ -1006,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/04/palindrome-partitioning-ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31604537" vertical-offset="0" max-vertical-offset="617">
-          <caret line="13" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/python/211-240/202-happy-number/solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.63209075" vertical-offset="0" max-vertical-offset="617">
@@ -1030,8 +949,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/python/121-150/139-word-break/soluton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7258065" vertical-offset="0" max-vertical-offset="620">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/348993582/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33225808" vertical-offset="229" max-vertical-offset="77265">
+          <caret line="29" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5145" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/04/palindrome-partitioning-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="10" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/121-150/132-palindrome-partitioning-ii/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8548387" vertical-offset="190" max-vertical-offset="810">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/121-150/131-palindrome-partitioning/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21791768" vertical-offset="0" max-vertical-offset="915">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/121-150/131-palindrome-partitioning/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5811138" vertical-offset="0" max-vertical-offset="540">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/211-240/232-implement-queue-using-stacks/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27360776" vertical-offset="502" max-vertical-offset="915">
+          <caret line="41" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/211-240/225-implement-stack-using-queues/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7094431" vertical-offset="382" max-vertical-offset="975">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/031-060/043-wildcard-matching/whildcard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="39" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/ksum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1102" max-vertical-offset="1560">
+          <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/wildcard-matching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/edit-distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/python/061-090/072-edit-distance/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6731235" vertical-offset="22" max-vertical-offset="495">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding />
         </state>
       </provider>
