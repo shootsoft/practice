@@ -2,6 +2,7 @@ __author__ = 'yinjun'
 
 '''
 @see http://www.cnblogs.com/EdwardLiu/p/4272300.html
+@see http://simpleandstupid.com/2014/12/21/backpack-ii-lintcode/
 '''
 class Solution:
     # @param m: An integer m denotes the size of a backpack

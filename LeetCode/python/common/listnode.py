@@ -1,5 +1,7 @@
 __author__ = 'yinjun'
 
+'''
+'''
 class ListNode:
 
     def __init__(self, x):
@@ -7,12 +9,16 @@ class ListNode:
         self.next = None
 
     def toList(self):
-
         v = [self.val]
         c = self.next
         while c!=None:
             v.append(c.val)
             c = c.next
+
+    def __str__(self):
+        self.toLit()
+        return str(lst)
+
 
     @staticmethod
     def fromList(list):
