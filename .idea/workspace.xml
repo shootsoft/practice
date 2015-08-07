@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2f312b7-c9ea-4418-8c31-9b8b74d543d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/05/distinct-subsequences.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/05/interleaving-string.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/05/longest-common-subsequence.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/05/longest-common-substring.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/091-120/097-interleaving-string/solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCode/python/091-120/115-distinct-subsequences/solution.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode/python/001-030/026-remove-duplicates-from-sorted-array/duplicates.py" afterPath="$PROJECT_DIR$/LeetCode/python/001-030/026-remove-duplicates-from-sorted-array/duplicates.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/05/backpack-ii.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/05/backpack.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/NineChapters/05/minimum-adjustment-cost.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/NineChapters/05/interleaving-string.py" afterPath="$PROJECT_DIR$/lintcode/NineChapters/05/interleaving-string.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practice.iws" />
@@ -52,11 +49,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interleaving-string.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="interleaving-string.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/interleaving-string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.048622366" vertical-offset="0" max-vertical-offset="660">
-              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wildcard-matching.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/wildcard-matching.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="735">
+              <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minimum-adjustment-cost.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/minimum-adjustment-cost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backpack.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/backpack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backpack-ii.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/backpack-ii.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.07575758" vertical-offset="0" max-vertical-offset="594">
+              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -75,9 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/python/091-120/098-validate-binary-search-tree/solution.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/search-range-in-binary-search-tree.py" />
-        <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-level-order-traversal.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-level-order-traversal-ii.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-zigzag-level-order-traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/091-120/103-binary-tree-zigzag-level-order-traversal/solution.py" />
@@ -126,6 +160,9 @@
         <option value="$PROJECT_DIR$/lintcode/NineChapters/05/longest-common-subsequence.py" />
         <option value="$PROJECT_DIR$/LeetCode/python/091-120/097-interleaving-string/solution.py" />
         <option value="$PROJECT_DIR$/lintcode/NineChapters/05/interleaving-string.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/05/minimum-adjustment-cost.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/05/backpack.py" />
+        <option value="$PROJECT_DIR$/lintcode/NineChapters/05/backpack-ii.py" />
       </list>
     </option>
   </component>
@@ -193,28 +230,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NineChapters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lintcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NineChapters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="05" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -622,14 +637,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="714" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -686,27 +701,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/binary-search-tree-iterator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51968503" vertical-offset="0" max-vertical-offset="1260">
-          <caret line="22" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/python/151-180/173-binary-search-tree-iterator/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1140">
-          <caret line="58" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/03/binary-tree-postorder-travesal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023622047" vertical-offset="30" max-vertical-offset="915">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/02/binary-search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635">
@@ -973,13 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/wildcard-matching.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/edit-distance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
@@ -1044,8 +1031,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/interleaving-string.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048622366" vertical-offset="0" max-vertical-offset="660">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/wildcard-matching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="735">
+          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/minimum-adjustment-cost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/backpack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lintcode/NineChapters/05/backpack-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07575758" vertical-offset="0" max-vertical-offset="594">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
           <folding />
         </state>
       </provider>

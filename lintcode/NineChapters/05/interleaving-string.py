@@ -1,6 +1,9 @@
 __author__ = 'yinjun'
 
-# ref http://www.jiuzhang.com/solutions/interleaving-string/
+"""
+@see http://blog.csdn.net/u011095253/article/details/9248073
+@see http://www.jiuzhang.com/solutions/interleaving-string/
+"""
 class Solution:
     """
     @params s1, s2, s3: Three strings as description.
