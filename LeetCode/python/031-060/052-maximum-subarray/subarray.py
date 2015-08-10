@@ -3,16 +3,16 @@ class Solution:
     # @return an integer
     def maxSubArray(self, A):
 
-        max = None
         l = len(A)
-        s = dict()
-        for i in range(l):
-            sub = 0
-            for j in range(i, l):
-                sub += A[j]
-                if sub > max:
-                    max = sub
-        return max
+        dp = [[0 for j in range(l+1)] for i in range(l+1)]
+        dp[0][0] = 0
+        for i in range(1, l+1):
+            dp[i][i] = A[i - 1]
+
+        for i in range(1, l+1):
+            for j in range(i + 1, l+1):
+                dp[i][j] = max(dp[i-1][j], dp[i-1][j-1]) + A[j-1]
+
 
 
 

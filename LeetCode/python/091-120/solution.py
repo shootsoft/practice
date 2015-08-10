@@ -1,7 +1,5 @@
 __author__ = 'yinjun'
 
-__author__ = 'yinjun'
-
 """
 Definition of TreeNode:
 class TreeNode:
