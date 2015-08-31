@@ -6,9 +6,9 @@ class Solution:
     @param n: The number of queens
     @return: All distinct solutions
     """
-    def solveNQueens(self, n):
+    def totalNQueens(self, n):
         # write your code here
-        self.results=[]
+        self.results=0
         self.solve(n, [])
         return self.results
 
@@ -16,7 +16,7 @@ class Solution:
 
         l = len(result)
         if l == n:
-            self.results.append(self.convert(result, n))
+            self.results+=1
             return
 
         for i in range(0, n):
@@ -46,21 +46,4 @@ class Solution:
             result.pop()
 
 
-
-
-    def convert(self, result, n):
-        r = []
-        for i in result:
-            cur = []
-            for j in range(n):
-                if i == j:
-                    cur.append('Q')
-                else:
-                    cur.append('.')
-            r.append(''.join(cur))
-        return r
-
-
-s = Solution()
-print s.solveNQueens(5)
 

@@ -10,7 +10,7 @@ class Solution:
         self.count = 0
         self.permuteN(num, 0, len(num)-1)
 
-        return  self.A
+        return  self.A[k-1]
 
     def permuteN(self, num, k, m):
 
